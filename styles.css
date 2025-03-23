@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    background-image: url(regi.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px  20px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+.gender-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}

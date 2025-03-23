@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form id="registrationForm">
+         <label for="image">upload profile picture</label>
+         <input type="file" id="image" name="image" accept="image">
+
+         <br><br>
+
+         <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" name="phone" value="+91" placeholder="+91 xxxxx xxxxx" required>
+
+        <label for="state">State:</label>
+        <select id="state" name="state" required>
+            <option value="">Select a state</option>
+            <option value="chennai">Chennai</option>
+            <option value="state2">State 2</option>
+            <option value="state3">State 3</option>
+            <option value="state4">State 4</option>
+            <option value="state5">State 5</option>
+            <option value="state6">State 6</option>
+            <option value="state7">State 7</option>
+            <option value="state8">State 8</option>
+            <option value="state9">State 9</option>
+            <option value="state10">State 10</option>
+            <option value="state11">State 11</option>
+            <option value="state12">State 12</option>
+            <option value="state13">State 13</option>
+            <option value="state14">State 14</option>
+            <option value="state15">State 15</option>
+            <option value="state16">State 16</option>
+            <option value="state17">State 17</option>
+            <option value="state18">State 18</option>
+            <option value="state19">State 19</option>
+            <option value="state20">State 20</option>
+            <option value="state21">State 21</option>
+            <option value="state22">State 22</option>
+            <option value="state23">State 23</option>
+            <option value="state24">State 24</option>
+            <option value="state25">State 25</option>
+            <option value="state26">State 26</option>
+            <option value="state27">State 27</option>
+            <option value="state28">State 28</option>
+        </select>
+
+        <label>Gender:</label>
+        <div class="gender-group">
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="">Select a subject</option>
+            <option value="subject1">Subject 1</option>
+            <option value="subject2">Subject 2</option>
+            <option value="subject3">Subject 3</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="C:\Users\j7305\OneDrive\Desktop\all folder\registration from\keireg\script.js"></script>
+</body>
+</html>
